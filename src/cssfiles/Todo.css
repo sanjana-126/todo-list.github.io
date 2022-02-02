@@ -1,0 +1,31 @@
+.todo-row{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    width: 70%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px 0;
+    align-items: center;
+}
+.completed{
+   text-decoration: line-through;
+   background-color: gray;
+}
+.doneIcon{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+    margin: 0 2px;
+}
+.deleteIcon{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+    margin: 0 2px;
+}

@@ -1,0 +1,33 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.form-container label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-container input{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form-container input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 5px #719ECE;
+}
+.form-container button{
+    width: fit-content;
+    margin: 12px 0;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+}
